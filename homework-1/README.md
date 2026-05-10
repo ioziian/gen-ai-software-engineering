@@ -1,14 +1,32 @@
 # 🏦 Homework 1: Banking Transactions API
 
-> **Student Name**: [Your Name]
-> **Date Submitted**: [Date]
-> **AI Tools Used**: [List tools, e.g., Claude Code, GitHub Copilot]
+> **Student Name**: Ihor Oziian
+> **Date Submitted**: 01.05.2026
+> **AI Tools Used**: GitHub Copilot (GPT-4.1), Gemini CLI (gemini-3-flash-preview)
 
 ---
 
+
 ## 📋 Project Overview
 
-[Briefly describe your implementation - what you built and the key features]
+This project implements a simple Banking Transactions REST API as part of the AI-Assisted Development course. The API allows users to create and view banking transactions, check account balances, and retrieve account summaries. All data is stored in-memory (no database required).
+
+### Key Features
+- Create, list, and retrieve transactions
+- Get account balances
+- Transaction validation (amount, account format, currency)
+- Filter transactions by account, type, and date range
+- Account summary endpoint (total deposits, withdrawals, transaction count, most recent transaction)
+- In-memory storage for fast prototyping
+- Basic error handling and meaningful error messages
+
+### Architecture
+- **Node.js** with **Express.js** for REST API
+- Modular structure: routes, models, validators, and utilities
+- All endpoints and validation logic implemented as per assignment requirements
+- Demo scripts and sample requests included for easy testing
+
+---
 
 
 <div align="center">
