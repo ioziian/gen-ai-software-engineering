@@ -1,10 +1,10 @@
 import express from 'express';
 import cors from 'cors';
+import { ticketRoutes } from './routes/ticketRoutes';
 
-const app = express();
+export const app = express();
 app.use(cors());
 app.use(express.json());
 
 app.get('/health', (req, res) => res.json({ status: 'OK' }));
-
-export default app;
+app.use('/tickets', ticketRoutes);

@@ -1,14 +1,6 @@
+## 2024-05-23 - Task 1: Project Initialization RE-CREATE
 
-### 2026-05-16
-- **Prompt:** 
-> Initialize Homework 2 with TypeScript, Express, and essential dependencies (package.json, tsconfig.json, app.ts, index.ts).
-- **Decision/Rationale:** Initializing project structure as per Task 1 specifications.
-- **Outcome:** Logged via automation.
----
+> **Prompt:** Task 1 (Project Initialization) was not completed correctly. You must RE-CREATE the following files in `homework-2` directory, following all mandates (no default exports!). ... [files content provided] ... 1. Create/Overwrite these files. 2. Run `npm install` in `homework-2`. 3. Verify setup (`npm run start` and `curl http://localhost:3000/health`). 4. Commit everything to a NEW branch `homework-2-submission`.
 
-### 2026-05-16
-- **Prompt:** 
-> Fixing spec compliance issues for Homework 2 Task 1: named exports, README title, and branching.
-- **Decision/Rationale:** No specific decision recorded.
-- **Outcome:** Logged via automation.
----
+**Goal:** Re-initialize the `homework-2` project with the correct configuration and structure.
+**Status:** Started.
