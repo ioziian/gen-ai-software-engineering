@@ -1,4 +1,10 @@
-# GitHub Merge Request (MR): Multi-OS Script Support & Technical Documentation Upgrade
+# 🏦 Homework 1: Banking Transactions API
+
+> **Student Name**: Ihor Oziian
+> **Date Submitted**: 01.05.2026
+> **AI Tools Used**: GitHub Copilot (GPT-4.1), Gemini CLI (gemini-3-flash-preview), Codex (Default mode)
+
+---
 
 ## Overview
 This MR completes the Banking Transactions API (Homework 1) by introducing full cross-platform support (Windows `.bat` scripts) and a professional technical documentation suite. It covers all core requirements, advanced validation, and additional summary features, fully documented through an AI-assisted development workflow.
@@ -90,42 +96,41 @@ Filtering transactions by date required coercing strings into `Date` objects and
 Below are the key artifacts demonstrating the development process and the working API.
 
 **AI Workflow & Strategic Planning:**
-![AI Planning and Workflow](https://raw.githubusercontent.com/ioziian/gen-ai-software-engineering/homework-1-submission/homework-1/docs/screenshots/Screenshot%202026-05-10%20at%2017.37.58.png)
-*Detailed planning and clarifying questions before implementation.*
+![AI Planning and Implementation](https://raw.githubusercontent.com/ioziian/gen-ai-software-engineering/homework-1-submission/homework-1/docs/screenshots/01-ai-planning-implementation.png)
+*Initial planning and core API implementation in VS Code, showing the AI-generated plan and successful transaction creation.*
 
-**Server Initialization & Running:**
-![Server Running](https://raw.githubusercontent.com/ioziian/gen-ai-software-engineering/homework-1-submission/homework-1/docs/screenshots/Screenshot%202026-05-10%20at%2018.41.45.png)
-*Express server successfully listening on Port 3000.*
+![AI Metrics and Usage](https://raw.githubusercontent.com/ioziian/gen-ai-software-engineering/homework-1-submission/homework-1/docs/screenshots/02-ai-metrics-usage.png)
+*Gemini CLI performance metrics and model usage summary after a successful development cycle.*
 
-**Sample API Responses:**
-![API Response - Deposit](https://raw.githubusercontent.com/ioziian/gen-ai-software-engineering/homework-1-submission/homework-1/docs/screenshots/Screenshot%202026-05-10%20at%2018.48.21.png)
-*Successful 201 Created response for a deposit.*
+**Skill Development & Guardrails:**
+![AI Skill Recommendation](https://raw.githubusercontent.com/ioziian/gen-ai-software-engineering/homework-1-submission/homework-1/docs/screenshots/03-ai-skill-recommendation.png)
+*AI assistant recommending project-specific skills (FinTech Guardrail, Workflow Chronicler) for compliance.*
 
-![API Response - Summary](https://raw.githubusercontent.com/ioziian/gen-ai-software-engineering/homework-1-submission/homework-1/docs/screenshots/Screenshot%202026-05-10%20at%2018.53.21.png)
-*Account summary endpoint returning aggregated statistics.*
+![Skill Installation](https://raw.githubusercontent.com/ioziian/gen-ai-software-engineering/homework-1-submission/homework-1/docs/screenshots/04-skill-installation.png)
+*Installation and activation of custom AI skills within the Gemini CLI environment.*
 
-![API Response - Filtering](https://raw.githubusercontent.com/ioziian/gen-ai-software-engineering/homework-1-submission/homework-1/docs/screenshots/Screenshot%202026-05-10%20at%2018.54.34.png)
-*Filtered transaction history based on account ID.*
+![Active Skills Review](https://raw.githubusercontent.com/ioziian/gen-ai-software-engineering/homework-1-submission/homework-1/docs/screenshots/05-active-skills-review.png)
+*Reviewing the list of active AI skills, including custom workspace skills.*
 
-![API Response - Balance](https://raw.githubusercontent.com/ioziian/gen-ai-software-engineering/homework-1-submission/homework-1/docs/screenshots/Screenshot%202026-05-10%20at%2018.56.47.png)
-*Balance retrieval endpoint.*
+![Web Backend Expert Skill](https://raw.githubusercontent.com/ioziian/gen-ai-software-engineering/homework-1-submission/homework-1/docs/screenshots/06-web-backend-expert-skill.png)
+*Creation of the web-backend-expert skill for architectural and error-handling guidance.*
 
-![API Response - Validation Error](https://raw.githubusercontent.com/ioziian/gen-ai-software-engineering/homework-1-submission/homework-1/docs/screenshots/Screenshot%202026-05-10%20at%2018.59.30.png)
-*Meaningful 400 Bad Request response with detailed error field mapping.*
+**Project Finalization:**
+![Gemini CLI Initialization](https://raw.githubusercontent.com/ioziian/gen-ai-software-engineering/homework-1-submission/homework-1/docs/screenshots/07-gemini-cli-init.png)
+*Gemini CLI session initialization and start of the requirement analysis task.*
 
-**Documentation & Final Artifacts:**
-![Documentation Output - HOWTORUN](https://raw.githubusercontent.com/ioziian/gen-ai-software-engineering/homework-1-submission/homework-1/docs/screenshots/Screenshot%202026-05-10%20at%2019.04.45.png)
-*Finalized HOWTORUN.md with cross-platform instructions.*
+![Documentation Finalization](https://raw.githubusercontent.com/ioziian/gen-ai-software-engineering/homework-1-submission/homework-1/docs/screenshots/08-documentation-finalization.png)
+*Finalizing project documentation and creating the manual verification checklist.*
 
-![Documentation Output - README](https://raw.githubusercontent.com/ioziian/gen-ai-software-engineering/homework-1-submission/homework-1/docs/screenshots/Screenshot%202026-05-10%20at%2022.26.29.png)
-*Comprehensive README.md documenting architecture and features.*
+![Gap Analysis with External AI](https://raw.githubusercontent.com/ioziian/gen-ai-software-engineering/homework-1-submission/homework-1/docs/screenshots/09-gap-analysis-external-ai.png)
+*Using an external AI assistant (ChatGPT/Claude) for final gap analysis and remaining task planning.*
 
 **Cross-Platform Scripting & Final Results:**
-![Result of Work](https://raw.githubusercontent.com/ioziian/gen-ai-software-engineering/homework-1-submission/homework-1/docs/screenshots/result-of-work.png)
+![Result of Work](https://raw.githubusercontent.com/ioziian/gen-ai-software-engineering/homework-1-submission/homework-1/docs/screenshots/10-result-of-work.png)
 *Terminal output demonstrating the successful execution of cross-platform demo scripts.*
 
 **Rendered MR Description Output:**
-![Final MR Description Rendering](https://raw.githubusercontent.com/ioziian/gen-ai-software-engineering/homework-1-submission/homework-1/docs/screenshots/Screenshot-MR-Result.png)
+![Final MR Description Rendering](https://raw.githubusercontent.com/ioziian/gen-ai-software-engineering/homework-1-submission/homework-1/docs/screenshots/11-mr-description-rendering.png)
 *The final rendered version of this MR description.*
 
 ---

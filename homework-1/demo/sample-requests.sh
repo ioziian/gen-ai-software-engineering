@@ -1,24 +1,40 @@
 #!/bin/bash
 # Тестові curl-запити для Banking Transactions API
 
-# Створити транзакцію
+
+echo "==============================="
+echo "POST /transactions"
+echo "Body: {\"fromAccount\":\"ACC-12345\",\"toAccount\":\"ACC-67890\",\"amount\":100.50,\"currency\":\"USD\",\"type\":\"transfer\"}"
+echo "Response:"
 curl -X POST http://localhost:3000/transactions \
   -H "Content-Type: application/json" \
   -d '{"fromAccount":"ACC-12345","toAccount":"ACC-67890","amount":100.50,"currency":"USD","type":"transfer"}'
 echo -e "\n---"
 
-# Отримати всі транзакції
+
+echo "==============================="
+echo "GET /transactions"
+echo "Response:"
 curl http://localhost:3000/transactions
 echo -e "\n---"
 
-# Отримати транзакції для конкретного акаунта
+
+echo "==============================="
+echo "GET /transactions?accountId=ACC-12345"
+echo "Response:"
 curl "http://localhost:3000/transactions?accountId=ACC-12345"
 echo -e "\n---"
 
-# Баланс акаунта
+
+echo "==============================="
+echo "GET /accounts/ACC-12345/balance"
+echo "Response:"
 curl http://localhost:3000/accounts/ACC-12345/balance
 echo -e "\n---"
 
-# Зведення по акаунту
+
+echo "==============================="
+echo "GET /accounts/ACC-12345/summary"
+echo "Response:"
 curl http://localhost:3000/accounts/ACC-12345/summary
 echo -e "\n---"
