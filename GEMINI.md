@@ -56,3 +56,29 @@ The following workspace-specific skills are installed to assist with course requ
 2. Implement tasks.
 3. Commit and push to your fork.
 4. Create a detailed Pull Request (PR) with screenshots and verification steps.
+
+### 📝 GitHub Merge Request (MR) Documentation Workflow
+
+When preparing an MR description, adhere to the following professional structure and screenshot requirements.
+
+#### 1. Description Structure
+- **✅ Summary**: Detailed technical breakdown of all implemented tasks, endpoints, and validation rules.
+- **🏗 Architecture**: Explain the project structure and technical stack (include a directory tree).
+- **🛠 AI Tools & Workflow**: Document the specific AI agents, models, and custom skills used. Describe the iterative planning and implementation phases.
+- **⚠️ Challenges Encountered**: Document technical hurdles, edge cases, and the solutions implemented.
+- **📸 Screenshots**: Grouped by theme with descriptive captions (see below).
+
+#### 2. Screenshot Requirements & Naming
+Place all screenshots in `homework-X/docs/screenshots/` using descriptive, numbered filenames (e.g., `01-ai-planning.png`).
+
+| Category | Description |
+|----------|-------------|
+| **Planning** | AI interaction showing the initial prompt, architecture discussion, and step-by-step implementation plan. |
+| **Metrics** | Performance data, model usage stats, or tool call summaries from the AI agent. |
+| **Skills** | Recommendation, installation, and usage of custom AI skills (e.g., `fintech-guardrail`). |
+| **Execution** | API running in the terminal, successful request/response logs (curl/REST Client). |
+| **Validation** | Proof of error handling (e.g., 400 Bad Request with descriptive field errors). |
+| **Final Result** | Cross-platform script results, final README/HOWTORUN rendered output, and the rendered MR description itself. |
+
+#### 3. Documentation Linking
+Use absolute raw GitHub URLs for images in the MR description to ensure they render correctly in the GitHub UI (e.g., `https://raw.githubusercontent.com/user/repo/branch/path/to/image.png`).
