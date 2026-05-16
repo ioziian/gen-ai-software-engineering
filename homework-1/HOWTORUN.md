@@ -2,11 +2,21 @@
 
 ## 1. Start the API Server
 
+
+### For macOS/Linux
 You can use the provided script to install dependencies and start the server:
 
 ```bash
 cd homework-1/demo
 ./run.sh
+```
+
+### For Windows
+Use the batch script in Command Prompt:
+
+```bat
+cd homework-1\demo
+run.bat
 ```
 
 Or run manually from the project root:
@@ -22,18 +32,25 @@ The API will be available at: http://localhost:3000
 
 ## 2. Test the API Endpoints
 
-### Option A: Використання curl-requests.sh (рекомендовано)
 
-Виконайте всі основні запити автоматично:
+### Option A: Run All Sample Requests Automatically
+
+#### macOS/Linux
 ```bash
 cd homework-1/demo
-chmod +x curl-requests.sh
-./curl-requests.sh
+chmod +x sample-requests.sh
+./sample-requests.sh
+```
+
+#### Windows
+```bat
+cd homework-1\demo
+sample-requests.bat
 ```
 
 ### Option B: Використання curl вручну
 
-Відкрийте новий термінал і використовуйте команди з curl-requests.sh або з README.md.
+Відкрийте новий термінал і використовуйте команди з `sample-requests.sh` або з `README.md`.
 
 ### Option C: VS Code REST Client
 1. Встановіть розширення "REST Client" у VS Code.

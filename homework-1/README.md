@@ -2,7 +2,7 @@
 
 > **Student Name**: Ihor Oziian
 > **Date Submitted**: 01.05.2026
-> **AI Tools Used**: GitHub Copilot (GPT-4.1), Gemini CLI (gemini-3-flash-preview)
+> **AI Tools Used**: GitHub Copilot (GPT-4.1), Gemini CLI (gemini-3-flash-preview), Codex (Default mode)
 
 ---
 
@@ -19,6 +19,12 @@ This project implements a simple Banking Transactions REST API as part of the AI
 - Account summary endpoint (total deposits, withdrawals, transaction count, most recent transaction)
 - In-memory storage for fast prototyping
 - Basic error handling and meaningful error messages
+
+### Included Deliverables
+- `demo/run.sh` to start the application
+- `demo/sample-requests.sh` and `demo/sample-requests.http` for testing
+- `demo/sample-data.json` with sample transaction data
+- screenshots in `docs/screenshots/`
 
 ### Architecture
 - **Node.js** with **Express.js** for REST API
