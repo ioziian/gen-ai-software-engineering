@@ -1,0 +1,6 @@
+customer_id,customer_email,customer_name,subject,description,category,priority,status,assigned_to,tags
+U011,alex.white@rand.com,Alex White,Login issue,I cannot access my account,account_access,urgent,new,,["security"]
+U012,invalid-email,Maria Garcia,Billing error,Charged twice for subscription,billing_question,high,open,,["payment"]
+U013,sam.wilson@rand.com,Sam Wilson,,App freezes every time I click export,technical_issue,urgent,new,,["performance"]
+U014,li.zhang@rand.com,Li Zhang,Feature suggestion,Too short,feature_request,low,open,,["ui"]
+U015,bob.miller@rand.com,Bob Miller,Bug report,Regression found in version 2.1,bad_cat,high,open,,["defect"]

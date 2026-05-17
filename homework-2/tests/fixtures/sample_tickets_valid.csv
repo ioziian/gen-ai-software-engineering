@@ -1,0 +1,31 @@
+customer_id,customer_email,customer_name,subject,description,category,priority,status,assigned_to,tags
+U001,alex.white@rand.com,Alex White,Login issue,I cannot access my account after password reset,account_access,urgent,new,,["security"]
+U002,maria.garcia@rand.com,Maria Garcia,Billing error,Charged twice for subscription this month,billing_question,high,new,agent_a,["payment"]
+U003,sam.wilson@rand.com,Sam Wilson,System crash,App freezes every time I click export,technical_issue,urgent,new,,["performance"]
+U004,li.zhang@rand.com,Li Zhang,Feature suggestion,Add support for keyboard shortcuts,feature_request,low,new,agent_b,["ui"]
+U005,bob.miller@rand.com,Bob Miller,Bug report,Regression found in reporting module 2.1,bug_report,high,new,,["defect"]
+U006,nina.brown@rand.com,Nina Brown,2FA failed,SMS code not arriving for authentication,account_access,urgent,new,,["auth"]
+U007,tom.jones@rand.com,Tom Jones,Missing invoice,Subscription invoice not received for April,billing_question,medium,new,agent_a,["finance"]
+U008,sara.davis@rand.com,Sara Davis,Slow page load,Dashboard takes over 10 seconds to load,technical_issue,high,in_progress,,["slow"]
+U009,kevin.king@rand.com,Kevin King,Docs request,Need help with integration API docs,feature_request,medium,new,,["help"]
+U010,faye.young@rand.com,Faye Young,Account recovery,Account is locked due to too many attempts,account_access,urgent,new,agent_a,["access"]
+U001,alex.white@rand.com,Alex White,Login issue,I cannot access my account after password reset,account_access,urgent,new,,["security"]
+U002,maria.garcia@rand.com,Maria Garcia,Billing error,Charged twice for subscription this month,billing_question,high,in_progress,agent_a,["payment"]
+U003,sam.wilson@rand.com,Sam Wilson,System crash,App freezes every time I click export,technical_issue,urgent,new,,["performance"]
+U004,li.zhang@rand.com,Li Zhang,Feature suggestion,Add support for keyboard shortcuts,feature_request,low,in_progress,agent_b,["ui"]
+U005,bob.miller@rand.com,Bob Miller,Bug report,Regression found in reporting module 2.1,bug_report,high,in_progress,,["defect"]
+U006,nina.brown@rand.com,Nina Brown,2FA failed,SMS code not arriving for authentication,account_access,urgent,new,,["auth"]
+U007,tom.jones@rand.com,Tom Jones,Missing invoice,Subscription invoice not received for April,billing_question,medium,in_progress,agent_a,["finance"]
+U008,sara.davis@rand.com,Sara Davis,Slow page load,Dashboard takes over 10 seconds to load,technical_issue,high,in_progress,,["slow"]
+U009,kevin.king@rand.com,Kevin King,Docs request,Need help with integration API docs,feature_request,medium,in_progress,,["help"]
+U010,faye.young@rand.com,Faye Young,Account recovery,Account is locked due to too many attempts,account_access,urgent,in_progress,agent_a,["access"]
+U001,alex.white@rand.com,Alex White,Login issue,I cannot access my account after password reset,account_access,urgent,new,,security
+U002,maria.garcia@rand.com,Maria Garcia,Billing error,Charged twice for subscription this month,billing_question,high,in_progress,agent_a,payment
+U003,sam.wilson@rand.com,Sam Wilson,System crash,App freezes every time I click export,technical_issue,urgent,new,,performance
+U004,li.zhang@rand.com,Li Zhang,Feature suggestion,Add support for keyboard shortcuts,feature_request,low,in_progress,agent_b,ui
+U005,bob.miller@rand.com,Bob Miller,Bug report,Regression found in reporting module 2.1,bug_report,high,in_progress,,defect
+U006,nina.brown@rand.com,Nina Brown,2FA failed,SMS code not arriving for authentication,account_access,urgent,new,,auth
+U007,tom.jones@rand.com,Tom Jones,Missing invoice,Subscription invoice not received for April,billing_question,medium,in_progress,agent_a,finance
+U008,sara.davis@rand.com,Sara Davis,Slow page load,Dashboard takes over 10 seconds to load,technical_issue,high,in_progress,,slow
+U009,kevin.king@rand.com,Kevin King,Docs request,Need help with integration API docs,feature_request,medium,in_progress,,help
+U010,faye.young@rand.com,Faye Young,Account recovery,Account is locked due to too many attempts,account_access,urgent,in_progress,agent_a,access

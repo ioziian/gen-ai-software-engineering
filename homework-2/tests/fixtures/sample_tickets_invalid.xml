@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tickets>
+  <ticket>
+    <customer_id>U019</customer_id>
+    <customer_email>alex.white@rand.com</customer_email>
+    <subject>Login issue</subject>
+    <description>I cannot access my account</description>
+  </ticket>
+  <ticket>
+    <customer_id>U020</customer_id>
+    <customer_email>invalid-email-format</customer_email>
+    <customer_name>Maria Garcia</customer_name>
+    <subject>Billing error</subject>
+    <description>Charged twice for subscription</description>
+  </ticket>
+</tickets>

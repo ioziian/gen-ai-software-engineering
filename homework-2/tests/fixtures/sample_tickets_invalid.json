@@ -1,0 +1,27 @@
+[
+  {
+    "customer_id": "U016",
+    "customer_email": "alex.white@rand.com",
+    "customer_name": "Alex White",
+    "subject": "Login issue",
+    "description": "I cannot access my account after password reset",
+    "category": "account_access",
+    "priority": "urgent"
+  },
+  {
+    "customer_id": "U017",
+    "customer_email": "invalid-email-format",
+    "customer_name": "Maria Garcia",
+    "subject": "Billing error",
+    "description": "Charged twice for subscription",
+    "category": "billing_question"
+  },
+  {
+    "customer_id": "U018",
+    "customer_email": "sam.wilson@rand.com",
+    "customer_name": "Sam Wilson",
+    "subject": "System crash",
+    "description": "Too short",
+    "category": "technical_issue"
+  }
+]

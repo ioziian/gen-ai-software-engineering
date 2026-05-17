@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tickets>
+    <ticket>
+        <customer_id>U001</customer_id>
+        <customer_email>alex.white@rand.com</customer_email>
+        <customer_name>Alex White</customer_name>
+        <subject>Login issue</subject>
+        <description>I cannot access my account after password reset</description>
+        <category>account_access</category>
+        <priority>urgent</priority>
+        <status>new</status>
+        <tags>
+            <tag>security</tag>
+        </tags>
+    </ticket>
+    <ticket>
+        <customer_id>U002</customer_id>
+        <customer_email>maria.garcia@rand.com</customer_email>
+        <customer_name>Maria Garcia</customer_name>
+        <subject>Billing error</subject>
+        <description>Charged twice for subscription this month</description>
+        <category>billing_question</category>
+        <priority>high</priority>
+        <status>new</status>
+        <assigned_to>agent_a</assigned_to>
+        <tags>
+            <tag>payment</tag>
+        </tags>
+    </ticket>
+    <ticket>
+        <customer_id>U003</customer_id>
+        <customer_email>sam.wilson@rand.com</customer_email>
+        <customer_name>Sam Wilson</customer_name>
+        <subject>System crash</subject>
+        <description>App freezes every time I click export</description>
+        <category>technical_issue</category>
+        <priority>urgent</priority>
+        <status>new</status>
+        <tags>
+            <tag>performance</tag>
+        </tags>
+    </ticket>
+    <ticket>
+        <customer_id>U004</customer_id>
+        <customer_email>li.zhang@rand.com</customer_email>
+        <customer_name>Li Zhang</customer_name>
+        <subject>Feature suggestion</subject>
+        <description>Add support for keyboard shortcuts to navigate</description>
+        <category>feature_request</category>
+        <priority>low</priority>
+        <status>new</status>
+        <assigned_to>agent_b</assigned_to>
+        <tags>
+            <tag>ui</tag>
+        </tags>
+    </ticket>
+    <ticket>
+        <customer_id>U005</customer_id>
+        <customer_email>bob.miller@rand.com</customer_email>
+        <customer_name>Bob Miller</customer_name>
+        <subject>Bug report</subject>
+        <description>Regression found in reporting module version 2.1</description>
+        <category>bug_report</category>
+        <priority>high</priority>
+        <status>new</status>
+        <tags>
+            <tag>defect</tag>
+        </tags>
+    </ticket>
+</tickets>

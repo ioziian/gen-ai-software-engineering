@@ -2,7 +2,7 @@
 
 > **Student Name**: Ihor Oziian
 > **Date Submitted**: 2026-05-16
-> **AI Tools Used**: Gemini CLI
+> **AI Tools Used**: Gemini CLI, Claude Code CLI
 
 ---
 

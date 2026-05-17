@@ -1,4 +1,0 @@
-Coverage Report:
-- Total Statements: 71.91%
-- Total Branch: 61.29%
-- Total Lines: 71.91%

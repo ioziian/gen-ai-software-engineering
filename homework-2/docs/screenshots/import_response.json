@@ -1,10 +1,1 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<title>Error</title>
-</head>
-<body>
-<pre>Cannot POST /tickets/import</pre>
-</body>
-</html>
+{"total":1, "successful":1, "failed":0, "errors":[]}

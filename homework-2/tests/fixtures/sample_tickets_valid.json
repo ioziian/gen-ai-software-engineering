@@ -1,0 +1,62 @@
+[
+  {
+    "customer_id": "U001",
+    "customer_email": "alex.white@rand.com",
+    "customer_name": "Alex White",
+    "subject": "Login issue",
+    "description": "I cannot access my account after password reset",
+    "category": "account_access",
+    "priority": "urgent",
+    "status": "new",
+    "assigned_to": null,
+    "tags": ["security"]
+  },
+  {
+    "customer_id": "U002",
+    "customer_email": "maria.garcia@rand.com",
+    "customer_name": "Maria Garcia",
+    "subject": "Billing error",
+    "description": "Charged twice for subscription this month",
+    "category": "billing_question",
+    "priority": "high",
+    "status": "open",
+    "assigned_to": "agent_a",
+    "tags": ["payment"]
+  },
+  {
+    "customer_id": "U003",
+    "customer_email": "sam.wilson@rand.com",
+    "customer_name": "Sam Wilson",
+    "subject": "System crash",
+    "description": "App freezes every time I click export",
+    "category": "technical_issue",
+    "priority": "urgent",
+    "status": "new",
+    "assigned_to": null,
+    "tags": ["performance"]
+  },
+  {
+    "customer_id": "U004",
+    "customer_email": "li.zhang@rand.com",
+    "customer_name": "Li Zhang",
+    "subject": "Feature suggestion",
+    "description": "Add support for keyboard shortcuts to navigate",
+    "category": "feature_request",
+    "priority": "low",
+    "status": "open",
+    "assigned_to": "agent_b",
+    "tags": ["ui"]
+  },
+  {
+    "customer_id": "U005",
+    "customer_email": "bob.miller@rand.com",
+    "customer_name": "Bob Miller",
+    "subject": "Bug report",
+    "description": "Regression found in reporting module version 2.1",
+    "category": "bug_report",
+    "priority": "high",
+    "status": "open",
+    "assigned_to": null,
+    "tags": ["defect"]
+  }
+]
