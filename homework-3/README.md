@@ -32,22 +32,22 @@ All files, comments, and documentation must be written in English. Communication
 Below are key artifacts illustrating the development and specification process for the fraud detection feature.
 
 **Initial Prompt & Feature Selection:**
-![Initial AI Prompt](docs/screenshots/1-first-promt.png)
+![Initial AI Prompt](https://raw.githubusercontent.com/ioziian/gen-ai-software-engineering/homework-3-submission/homework-3/docs/screenshots/1-first-promt.png)
 *The first prompt to the AI assistant, initiating the requirements gathering for the fraud detection feature.*
 
-![Feature Selection](docs/screenshots/2-select-feature-7.png)
+![Feature Selection](https://raw.githubusercontent.com/ioziian/gen-ai-software-engineering/homework-3-submission/homework-3/docs/screenshots/2-select-feature-7.png)
 *Selecting the fraud detection feature as the focus for the layered specification package.*
 
 **AI Specification & Implementation:**
-![Copilot Specification Complete](docs/screenshots/3-copilot-done.png)
+![Copilot Specification Complete](https://raw.githubusercontent.com/ioziian/gen-ai-software-engineering/homework-3-submission/homework-3/docs/screenshots/3-copilot-done.png)
 *GitHub Copilot completing the core specification tasks for the fraud detection module.*
 
 **Superpowers & Tooling:**
-![Superpowers Panel](docs/screenshots/4-superpowers.png)
+![Superpowers Panel](https://raw.githubusercontent.com/ioziian/gen-ai-software-engineering/homework-3-submission/homework-3/docs/screenshots/4-superpowers.png)
 *Reviewing available AI superpowers and workflow tools to enhance the specification process.*
 
 **External AI Tooling:**
-![Codex CLI Usage](docs/screenshots/5-codex.png)
+![Codex CLI Usage](https://raw.githubusercontent.com/ioziian/gen-ai-software-engineering/homework-3-submission/homework-3/docs/screenshots/5-codex.png)
 *Utilizing Codex CLI for advanced AI-driven code and documentation generation.*
 
 ---
