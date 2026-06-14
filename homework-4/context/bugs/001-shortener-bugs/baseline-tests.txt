@@ -1,0 +1,78 @@
+
+ RUN  v3.2.6 /Users/ihoroziian/Documents/set/gen-ai-software-engineering/homework-4
+
+ ✓ tests/links.smoke.test.ts (2 tests) 20ms
+ ❯ tests/links.baseline.test.ts (3 tests | 3 failed) 29ms
+   × baseline — seeded defects (fail pre-fix, pass post-fix) > BUG-001: GET /links?page=1 returns the FIRST page 16ms
+     → expected [ { id: 11, slug: 'gj', …(3) }, …(1) ] to have a length of 10 but got 2
+   × baseline — seeded defects (fail pre-fix, pass post-fix) > BUG-002: GET /links/:slug for an unknown slug returns 404, not 500 5ms
+     → expected 500 to be 404 // Object.is equality
+   × baseline — seeded defects (fail pre-fix, pass post-fix) > SEC-001: POST /links rejects a javascript: scheme with 400 8ms
+     → expected 201 to be 400 // Object.is equality
+
+ Test Files  1 failed | 1 passed (2)
+      Tests  3 failed | 2 passed (5)
+   Start at  22:14:22
+   Duration  469ms (transform 46ms, setup 0ms, collect 290ms, tests 49ms, environment 0ms, prepare 174ms)
+
+
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 3 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  tests/links.baseline.test.ts > baseline — seeded defects (fail pre-fix, pass post-fix) > BUG-001: GET /links?page=1 returns the FIRST page
+AssertionError: expected [ { id: 11, slug: 'gj', …(3) }, …(1) ] to have a length of 10 but got 2
+
+[32m- Expected[39m
+[31m+ Received[39m
+
+[32m- 10[39m
+[31m+ 2[39m
+
+ ❯ tests/links.baseline.test.ts:17:28
+     15|     const res = await request(app).get('/links?page=1&limit=10');
+     16|     expect(res.status).toBe(200);
+     17|     expect(res.body.links).toHaveLength(10);
+       |                            ^
+     18|     expect(res.body.links[0].url).toBe('https://example.com/page/0');
+     19|   });
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/3]⎯
+
+ FAIL  tests/links.baseline.test.ts > baseline — seeded defects (fail pre-fix, pass post-fix) > BUG-002: GET /links/:slug for an unknown slug returns 404, not 500
+AssertionError: expected 500 to be 404 // Object.is equality
+
+[32m- Expected[39m
+[31m+ Received[39m
+
+[32m- 404[39m
+[31m+ 500[39m
+
+ ❯ tests/links.baseline.test.ts:23:24
+     21|   it('BUG-002: GET /links/:slug for an unknown slug returns 404, not 5…
+     22|     const res = await request(app).get('/links/does-not-exist');
+     23|     expect(res.status).toBe(404);
+       |                        ^
+     24|   });
+     25| 
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/3]⎯
+
+ FAIL  tests/links.baseline.test.ts > baseline — seeded defects (fail pre-fix, pass post-fix) > SEC-001: POST /links rejects a javascript: scheme with 400
+AssertionError: expected 201 to be 400 // Object.is equality
+
+[32m- Expected[39m
+[31m+ Received[39m
+
+[32m- 400[39m
+[31m+ 201[39m
+
+ ❯ tests/links.baseline.test.ts:28:24
+     26|   it('SEC-001: POST /links rejects a javascript: scheme with 400', asy…
+     27|     const res = await request(app).post('/links').send({ url: 'javascr…
+     28|     expect(res.status).toBe(400);
+       |                        ^
+     29|   });
+     30| });
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[3/3]⎯
+

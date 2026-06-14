@@ -1,0 +1,28 @@
+{
+  "name": "homework-4-url-shortener-pipeline",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "start":      "tsx src/index.ts",
+    "pipeline":   "tsx scripts/run-pipeline.ts",
+    "test":       "vitest run",
+    "test:watch": "vitest",
+    "typecheck":  "tsc --noEmit",
+    "build":      "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "express":      "^4.19.2",
+    "gray-matter":  "^4.0.3",
+    "pino":         "^9.6.0",
+    "zod":          "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/express":   "^4.17.21",
+    "@types/node":      "^22.10.7",
+    "@types/supertest": "^6.0.2",
+    "supertest":        "^7.0.0",
+    "tsx":              "^4.19.2",
+    "typescript":       "^5.7.3",
+    "vitest":           "^3.2.3"
+  }
+}
