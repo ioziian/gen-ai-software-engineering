@@ -1,18 +1,11 @@
-# 🏦 Homework 1: Banking Transactions API
+# 🏦 Homework 2: Intelligent Customer Support System
 
-> **Student Name**: [Your Name]
-> **Date Submitted**: [Date]
-> **AI Tools Used**: [List tools, e.g., Claude Code, GitHub Copilot]
+> **Student Name**: Ihor Oziian
+> **Date Submitted**: 2026-05-16
+> **AI Tools Used**: Gemini CLI, Claude Code CLI
 
 ---
 
 ## 📋 Project Overview
 
-[Briefly describe your implementation - what you built and the key features]
-
-
-<div align="center">
-
-*This project was completed as part of the AI-Assisted Development course.*
-
-</div>
+A robust support ticket management system with multi-format import, auto-classification, and high test coverage.
