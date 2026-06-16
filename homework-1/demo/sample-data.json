@@ -1,0 +1,22 @@
+[
+  {
+    "id": "sample-id-1",
+    "fromAccount": "ACC-12345",
+    "toAccount": "ACC-67890",
+    "amount": 100.50,
+    "currency": "USD",
+    "type": "transfer",
+    "timestamp": "2024-05-10T10:00:00.000Z",
+    "status": "completed"
+  },
+  {
+    "id": "sample-id-2",
+    "fromAccount": "ACC-67890",
+    "toAccount": "ACC-12345",
+    "amount": 50.00,
+    "currency": "USD",
+    "type": "deposit",
+    "timestamp": "2024-05-10T11:00:00.000Z",
+    "status": "completed"
+  }
+]
